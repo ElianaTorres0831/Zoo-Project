@@ -5,20 +5,11 @@
     font-family: 'Libre Franklin', sans-serif;
 }
 
-.panda_background_container {
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
-    background-image: url(/img/bamboo.avif);
-}
-
 .animal {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 56px;
 }
 
 .info {
@@ -50,7 +41,6 @@ img:hover {
 }
 
 .btn {
-    margin-top: 56px;
     font-size: 20px;
     font-weight: bold;
     background: #f79c35;
@@ -73,4 +63,34 @@ img:hover {
 @keyframes fadein {
     from {opacity : 0;}
     to {opacity : 1;}
+}
+
+.panda_background_container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/img/bamboo.avif);
+}
+
+.polarBear_background_container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/img/arctic.avif);
+}
+
+.tiger_background_container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/img/rainForest.avif);
 }
