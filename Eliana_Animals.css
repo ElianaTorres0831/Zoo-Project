@@ -1,0 +1,38 @@
+.info_text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    text-align: center;
+}
+.color{
+    background-color: darkolivegreen;
+}
+.otterSize{
+    
+    max-width: 28em;
+    display: block;
+    border-radius: 20px;
+    -webkit-animation: fadein 1s;
+}
+.btn {
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    background: #f79c35;
+    width: 160px;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+    -webkit-transition-duration: .3s;
+    -webkit-animation: fadein 3s;
+    align-items: center;
+}
+.btn:hover, .btn:focus, .btn:active {
+    -webkit-transform: scale(1.1);
+}
+
+@keyframes fadein {
+    from {opacity : 0;}
+    to {opacity : 1;}
+}
