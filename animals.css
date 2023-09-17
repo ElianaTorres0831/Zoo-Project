@@ -5,7 +5,7 @@
     font-family: 'Libre Franklin', sans-serif;
 }
 
-.background_container {
+.panda_background_container {
     display: flex;
     flex-direction: column;
     margin: auto;
@@ -54,7 +54,7 @@ img:hover {
     font-size: 20px;
     font-weight: bold;
     background: #f79c35;
-    width: 160px;
+    width: 200px;
     padding: 20px;
     text-align: center;
     text-decoration: none;
