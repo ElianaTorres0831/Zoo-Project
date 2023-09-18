@@ -5,4 +5,4 @@ In this assignment, we have to make a zoo with html/css. It will include the hom
 ## Name of Members 
 1) Eliana Torres
 2) Rosa Rivera Soto
-3) Jacky 
+3) Jacky Chen
