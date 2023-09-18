@@ -25,10 +25,12 @@
 
 .flex_container h1 {
     -webkit-animation: fadein 1s;
+    animation: fadein 1s;
 }
 
 .flex_container p {
     -webkit-animation: fadein 2s;
+    animation: fadein 2s;
     padding: 1em;
 }
 
@@ -45,11 +47,14 @@
     border-radius: 5px;
     cursor: pointer;
     -webkit-transition-duration: .3s;
+    transition-duration: .3s;
     -webkit-animation: fadein 3s;
+    animation: fadein 3s;
 }
 
 .btn:hover, .btn:focus, .btn:active {
     -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 @keyframes fadein {
