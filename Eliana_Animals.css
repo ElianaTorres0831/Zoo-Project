@@ -1,38 +1,68 @@
 .info_text{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-family: 'FreeMono', monospace; 
+    background-color: rgba(230, 230, 230, 0.753);
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 15px;
+    max-width: 48dvw;
     text-align: center;
 }
-.color{
-    background-color: darkolivegreen;
-}
-.otterSize{
-    
-    max-width: 28em;
-    display: block;
-    border-radius: 20px;
-    -webkit-animation: fadein 1s;
+.pictureSize{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    max-width: 48dvw;
 }
 .btn {
-    margin: 10px;
     font-size: 20px;
     font-weight: bold;
-    background: #f79c35;
-    width: 160px;
-    padding: 20px;
+    background: #9a76ee;
+    width: 175px;
     text-align: center;
     text-decoration: none;
     color: #ffffff;
-    border-radius: 5px;
-    cursor: pointer;
-    -webkit-transition-duration: .3s;
-    -webkit-animation: fadein 3s;
-    align-items: center;
+    border-radius: 10px;
+    border-style: solid;
 }
+
 .btn:hover, .btn:focus, .btn:active {
     -webkit-transform: scale(1.1);
 }
 
-@keyframes fadein {
-    from {opacity : 0;}
-    to {opacity : 1;}
+.otterColor{
+    display: flex;
+    height: 100vh;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    background-color: darkolivegreen;
+    background-image: url(/img/otter_river.avif);
+}
+.snow_leopardColor{
+    display: flex;
+    height: 100vh;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/img/winter.avif);
+
+}
+.sealColor{
+    display: flex;
+    height: 100vh;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/img/ocean.avif);  
+}
+.komodoColor{
+    display: flex;
+    height: 100vh;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/img/indonesia.avif);  
 }
