@@ -46,6 +46,7 @@
     align-items: center;
     background-color: darkolivegreen;
     background-image: url(/img/otter_river.avif);
+    background-size: cover;
 }
 .snow_leopardColor{
     display: flex;
@@ -54,6 +55,7 @@
     justify-content: center;
     align-items: center;
     background-image: url(/img/winter.avif);
+    background-size: cover;
 
 }
 .sealColor{
@@ -63,6 +65,7 @@
     justify-content: center;
     align-items: center;
     background-image: url(/img/ocean.avif);  
+    background-size: cover;
 }
 .komodoColor{
     display: flex;
@@ -71,4 +74,5 @@
     justify-content: center;
     align-items: center;
     background-image: url(/img/indonesia.avif);  
+    background-size: cover;
 }
