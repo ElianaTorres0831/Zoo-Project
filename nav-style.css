@@ -35,9 +35,6 @@
     background-color: white;
 }
 
-.animals {
-}
-
 .img-container {
     margin-right: 3.6rem;
     max-width: 4.8rem;
@@ -66,7 +63,9 @@ a {
 
 li:hover, li:focus, li:active {
     -webkit-transform: scale(1.1);
+    transform: scale(1.1);
     -webkit-transition-duration: .3s;
+    transition-duration: .3s;
 }
 
 @keyframes fadeInUp {

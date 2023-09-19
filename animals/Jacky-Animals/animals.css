@@ -21,6 +21,7 @@
     padding: 48px;
     border-radius: 20px;
     -webkit-animation: fadein 2s;
+    animation: fadein 2s;
 }
 
 .info h1 {
@@ -33,6 +34,7 @@ img{
     display: block;
     border-radius: 20px;
     -webkit-animation: fadein 1s;
+    animation: fadein 1s;
     transition: .3s all ease-in-out;
 }
 
@@ -52,12 +54,15 @@ img:hover {
     border-radius: 5px;
     cursor: pointer;
     -webkit-transition-duration: .3s;
+    transition-duration: .3s;
     -webkit-animation: fadein 1s;
+    animation: fadein 1s;
     border-style: none;
 }
 
 .btn:hover, .btn:focus, .btn:active {
     -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 @keyframes fadein {
@@ -83,6 +88,7 @@ img:hover {
     justify-content: center;
     align-items: center;
     background-image: url(/img/arctic.avif);
+    background-size: cover;
 }
 
 .tiger_background_container {
