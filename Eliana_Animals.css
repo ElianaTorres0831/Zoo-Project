@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     overflow: hidden;
-  }
+}
 .info_text{
     font-family: 'FreeMono', monospace; 
     background-color: rgba(230, 230, 230, 0.753);
