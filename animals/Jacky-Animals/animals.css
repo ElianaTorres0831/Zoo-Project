@@ -77,7 +77,8 @@ img:hover {
     height: 100vh;
     justify-content: center;
     align-items: center;
-    background-image: url(/img/bamboo.avif);
+    background-image: url(../../img/bamboo.avif);
+    background-size: cover;
 }
 
 .polarBear_background_container {
@@ -87,7 +88,7 @@ img:hover {
     height: 100vh;
     justify-content: center;
     align-items: center;
-    background-image: url(/img/arctic.avif);
+    background-image: url(../../img/arctic.avif);
     background-size: cover;
 }
 
@@ -98,7 +99,8 @@ img:hover {
     height: 100vh;
     justify-content: center;
     align-items: center;
-    background-image: url(/img/rainForest.avif);
+    background-image: url(../../img/rainForest.avif);
+    background-size: cover;
 }
 
 .cobra_background_container {
@@ -108,5 +110,6 @@ img:hover {
     height: 100vh;
     justify-content: center;
     align-items: center;
-    background-image: url(/img/bambooThicket.avif);
+    background-image: url(../../img/bambooThicket.avif);
+    background-size: cover;
 }
