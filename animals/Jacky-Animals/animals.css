@@ -78,6 +78,7 @@ img:hover {
     justify-content: center;
     align-items: center;
     background-image: url(/img/bamboo.avif);
+    background-size: cover;
 }
 
 .polarBear_background_container {
@@ -99,6 +100,7 @@ img:hover {
     justify-content: center;
     align-items: center;
     background-image: url(/img/rainForest.avif);
+    background-size: cover;
 }
 
 .cobra_background_container {
@@ -109,4 +111,5 @@ img:hover {
     justify-content: center;
     align-items: center;
     background-image: url(/img/bambooThicket.avif);
+    background-size: cover;
 }
