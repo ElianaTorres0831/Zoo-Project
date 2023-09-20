@@ -4,10 +4,16 @@
     box-sizing: border-box;
     overflow: hidden;
 }
+.text_buttonContainer{
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+}
 .info_text{
     font-family: 'FreeMono', monospace; 
     background-color: rgba(230, 230, 230, 0.853);
-    margin: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -25,11 +31,11 @@
     max-width: 48dvw;
 }
 .button {
-    margin-top: 15px;
+    margin-top: 20px;
     font-size: 15px;
     font-weight: bold;
     background: #ac91eb;
-    height: 40px;
+    height: 45px;
     width: 125px;
     cursor: pointer;
     text-align: center;
