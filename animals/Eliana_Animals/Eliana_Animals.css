@@ -6,7 +6,7 @@
 }
 .info_text{
     font-family: 'FreeMono', monospace; 
-    background-color: rgba(230, 230, 230, 0.753);
+    background-color: rgba(230, 230, 230, 0.853);
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -14,28 +14,28 @@
     align-content: center;
     padding: 15px;
     max-width: 48dvw;
+    border-radius: 10px;
     text-align: center;
 }
 .pictureSize{
     display: flex;
     margin: auto;
+    padding: 15px;
     align-items: center;
     max-width: 48dvw;
 }
-.btn {
-    font-size: 20px;
+.button {
+    margin-top: 15px;
+    font-size: 15px;
     font-weight: bold;
-    background: #9a76ee;
-    width: 175px;
+    background: #ac91eb;
+    height: 40px;
+    width: 125px;
+    cursor: pointer;
     text-align: center;
-    text-decoration: none;
-    color: #ffffff;
+    color: #000000;
     border-radius: 10px;
     border-style: solid;
-}
-
-.btn:hover, .btn:focus, .btn:active {
-    -webkit-transform: scale(1.1);
 }
 
 .otterColor{
@@ -56,7 +56,6 @@
     align-items: center;
     background-image: url(/img/winter.avif);
     background-size: cover;
-
 }
 .sealColor{
     display: flex;
