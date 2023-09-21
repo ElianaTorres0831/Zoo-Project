@@ -6,3 +6,6 @@ In this assignment, we have to make a zoo with html/css. It will include the hom
 1) Eliana Torres - ElianaTorres0831
 2) Rosa Rivera Soto - rosrivers 
 3) Jacky Chen - rhyzero
+
+## Website Link
+https://rhyzero.github.io/Zoo-Project/
